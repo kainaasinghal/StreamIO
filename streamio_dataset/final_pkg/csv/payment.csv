@@ -1,0 +1,13 @@
+payment_number,payment_date,payment_amount,payment_method,status,subscription_id
+1,2026-01-01,649.0,Credit Card,success,1
+2,2026-03-15,199.0,UPI,success,2
+3,2026-02-01,399.0,Debit Card,success,3
+4,2026-05-10,649.0,UPI,success,4
+5,2026-06-19,399.0,Credit Card,failed,5
+6,2026-06-20,399.0,UPI,success,5
+7,2026-01-10,199.0,Net Banking,success,6
+8,2026-04-05,649.0,Credit Card,success,7
+9,2026-04-15,649.0,Credit Card,refunded,7
+10,2026-08-01,199.0,Wallet,success,8
+11,2026-09-15,399.0,UPI,success,9
+12,2026-07-01,649.0,Debit Card,success,10

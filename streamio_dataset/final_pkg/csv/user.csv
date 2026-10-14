@@ -1,0 +1,13 @@
+user_id,name,email,password,phone,country,role
+1,Admin,admin@streamio.com,$2b$10$bAbdGD2Z4kF2mP6NJw4lUuVfNp7IKUfH8fo3E/lKpEelWkM/Ma3ga,,India,ADMIN
+2,Content Editor,editor@streamio.com,$2b$10$7XVhceTrcAwfUoXYM5igoOOKxThX/z8RI9rX5MRx2WBHeUyiigvjW,,India,EDITOR
+3,Aarav Sharma,aarav@example.com,$2b$10$y6guZLnSaYtYWnd8qOeixumx.8qht0Ble9ltb1c92vEk0sc6Cq8Fi,9876543210,India,USER
+4,Riya Kapoor,riya@example.com,$2b$10$XUtDlhB23LLZHZbbvIQ3aOefJkU6lD/VSb2U2VBbZuC0jnPdA4Z36,9876543211,India,USER
+5,John Smith,john@example.com,$2b$10$w1.3JzMZrGMoVGdgrOgyx.ZXbOwiCsPlWJGnimo3Ri8VEUzjkr2oW,4085551234,USA,USER
+6,Emma Watson,emma@example.com,$2b$10$kuTYEk/QpCRcPJnd7cWaVu/8nzRmx44YBGOuqOhM12v4j87BDHGqO,4415551234,UK,USER
+7,Vikram Singh,vikram@example.com,$2b$10$lwgQL2ScivhGkN58oG7ZuO1dC7AfLr.jGFwRr5ns6TgQX1PhxEUSa,9876543212,India,USER
+8,Priya Nair,priya@example.com,$2b$10$LYKKgwsMMfIiyykof8FJweEy4QNn5fBMNk./2Rn7bx.sfjKHxDWTW,9876543213,India,USER
+9,Liam Johnson,liam@example.com,$2b$10$uMO.1X9/9USg9QQgKzQnU.Jla/y7WGB5nPLd4Zg.OP2Z52NbJHP9K,6475551234,Canada,USER
+10,Sofia Garcia,sofia@example.com,$2b$10$cVR5i8zuSLpUM9ZOeiFDI.lGyNnj11hczlp8AIvJBmfHNGnlbv5am,3415551234,Spain,USER
+11,Mohammed Ali,ali@example.com,$2b$10$k/Sud/FOk4yM5uMvrEnVz.r09kKrKkhr6dlHTZlR1PadfCkOLGMNa,5015551234,UAE,USER
+12,Ananya Iyer,ananya@example.com,$2b$10$ab.mL5XBLafwPet0lys1a.1.F3.GR7q9uxLdXR1VuSkzZNFky/BFu,9876543214,India,USER

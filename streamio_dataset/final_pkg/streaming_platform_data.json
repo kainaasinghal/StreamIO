@@ -1,0 +1,907 @@
+{
+  "user": [
+    {
+      "user_id": 1,
+      "name": "Admin",
+      "email": "admin@streamio.com",
+      "password": "$2b$10$bAbdGD2Z4kF2mP6NJw4lUuVfNp7IKUfH8fo3E/lKpEelWkM/Ma3ga",
+      "phone": null,
+      "country": "India",
+      "role": "ADMIN"
+    },
+    {
+      "user_id": 2,
+      "name": "Content Editor",
+      "email": "editor@streamio.com",
+      "password": "$2b$10$7XVhceTrcAwfUoXYM5igoOOKxThX/z8RI9rX5MRx2WBHeUyiigvjW",
+      "phone": null,
+      "country": "India",
+      "role": "EDITOR"
+    },
+    {
+      "user_id": 3,
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "password": "$2b$10$y6guZLnSaYtYWnd8qOeixumx.8qht0Ble9ltb1c92vEk0sc6Cq8Fi",
+      "phone": "9876543210",
+      "country": "India",
+      "role": "USER"
+    },
+    {
+      "user_id": 4,
+      "name": "Riya Kapoor",
+      "email": "riya@example.com",
+      "password": "$2b$10$XUtDlhB23LLZHZbbvIQ3aOefJkU6lD/VSb2U2VBbZuC0jnPdA4Z36",
+      "phone": "9876543211",
+      "country": "India",
+      "role": "USER"
+    },
+    {
+      "user_id": 5,
+      "name": "John Smith",
+      "email": "john@example.com",
+      "password": "$2b$10$w1.3JzMZrGMoVGdgrOgyx.ZXbOwiCsPlWJGnimo3Ri8VEUzjkr2oW",
+      "phone": "4085551234",
+      "country": "USA",
+      "role": "USER"
+    },
+    {
+      "user_id": 6,
+      "name": "Emma Watson",
+      "email": "emma@example.com",
+      "password": "$2b$10$kuTYEk/QpCRcPJnd7cWaVu/8nzRmx44YBGOuqOhM12v4j87BDHGqO",
+      "phone": "4415551234",
+      "country": "UK",
+      "role": "USER"
+    },
+    {
+      "user_id": 7,
+      "name": "Vikram Singh",
+      "email": "vikram@example.com",
+      "password": "$2b$10$lwgQL2ScivhGkN58oG7ZuO1dC7AfLr.jGFwRr5ns6TgQX1PhxEUSa",
+      "phone": "9876543212",
+      "country": "India",
+      "role": "USER"
+    },
+    {
+      "user_id": 8,
+      "name": "Priya Nair",
+      "email": "priya@example.com",
+      "password": "$2b$10$LYKKgwsMMfIiyykof8FJweEy4QNn5fBMNk./2Rn7bx.sfjKHxDWTW",
+      "phone": "9876543213",
+      "country": "India",
+      "role": "USER"
+    },
+    {
+      "user_id": 9,
+      "name": "Liam Johnson",
+      "email": "liam@example.com",
+      "password": "$2b$10$uMO.1X9/9USg9QQgKzQnU.Jla/y7WGB5nPLd4Zg.OP2Z52NbJHP9K",
+      "phone": "6475551234",
+      "country": "Canada",
+      "role": "USER"
+    },
+    {
+      "user_id": 10,
+      "name": "Sofia Garcia",
+      "email": "sofia@example.com",
+      "password": "$2b$10$cVR5i8zuSLpUM9ZOeiFDI.lGyNnj11hczlp8AIvJBmfHNGnlbv5am",
+      "phone": "3415551234",
+      "country": "Spain",
+      "role": "USER"
+    },
+    {
+      "user_id": 11,
+      "name": "Mohammed Ali",
+      "email": "ali@example.com",
+      "password": "$2b$10$k/Sud/FOk4yM5uMvrEnVz.r09kKrKkhr6dlHTZlR1PadfCkOLGMNa",
+      "phone": "5015551234",
+      "country": "UAE",
+      "role": "USER"
+    },
+    {
+      "user_id": 12,
+      "name": "Ananya Iyer",
+      "email": "ananya@example.com",
+      "password": "$2b$10$ab.mL5XBLafwPet0lys1a.1.F3.GR7q9uxLdXR1VuSkzZNFky/BFu",
+      "phone": "9876543214",
+      "country": "India",
+      "role": "USER"
+    }
+  ],
+  "plan": [
+    {
+      "plan_id": 1,
+      "plan_name": "Basic",
+      "price": 199.0,
+      "duration_months": 6
+    },
+    {
+      "plan_id": 2,
+      "plan_name": "Standard",
+      "price": 399.0,
+      "duration_months": 12
+    },
+    {
+      "plan_id": 3,
+      "plan_name": "Premium",
+      "price": 649.0,
+      "duration_months": 12
+    }
+  ],
+  "category": [
+    {
+      "category_id": 1,
+      "category_name": "Action",
+      "description": "High energy, thrilling content"
+    },
+    {
+      "category_id": 2,
+      "category_name": "Drama",
+      "description": "Emotional and character-driven stories"
+    },
+    {
+      "category_id": 3,
+      "category_name": "Comedy",
+      "description": "Light-hearted, humorous content"
+    },
+    {
+      "category_id": 4,
+      "category_name": "Documentary",
+      "description": "Factual and educational content"
+    },
+    {
+      "category_id": 5,
+      "category_name": "Thriller",
+      "description": "Suspenseful, edge-of-your-seat stories"
+    },
+    {
+      "category_id": 6,
+      "category_name": "Sci-Fi",
+      "description": "Science fiction and futuristic worlds"
+    },
+    {
+      "category_id": 7,
+      "category_name": "Romance",
+      "description": "Love stories and relationships"
+    },
+    {
+      "category_id": 8,
+      "category_name": "Horror",
+      "description": "Scary and spine-chilling content"
+    },
+    {
+      "category_id": 9,
+      "category_name": "Animation",
+      "description": "Animated films and shows for all ages"
+    }
+  ],
+  "content": [
+    {
+      "content_id": 1,
+      "title": "The Last Horizon",
+      "release_year": 2023,
+      "duration": 128,
+      "rating": 8.2,
+      "language": "English",
+      "category_id": 1
+    },
+    {
+      "content_id": 2,
+      "title": "Iron Monsoon",
+      "release_year": 2024,
+      "duration": 141,
+      "rating": 7.6,
+      "language": "Hindi",
+      "category_id": 1
+    },
+    {
+      "content_id": 3,
+      "title": "Crimson Highway",
+      "release_year": 2022,
+      "duration": 117,
+      "rating": 7.1,
+      "language": "English",
+      "category_id": 1
+    },
+    {
+      "content_id": 4,
+      "title": "Desert Blade",
+      "release_year": 2021,
+      "duration": 133,
+      "rating": 6.9,
+      "language": "English",
+      "category_id": 1
+    },
+    {
+      "content_id": 5,
+      "title": "Monsoon Diaries",
+      "release_year": 2022,
+      "duration": 110,
+      "rating": 7.8,
+      "language": "Hindi",
+      "category_id": 2
+    },
+    {
+      "content_id": 6,
+      "title": "A Quiet Harbour",
+      "release_year": 2023,
+      "duration": 124,
+      "rating": 8.4,
+      "language": "English",
+      "category_id": 2
+    },
+    {
+      "content_id": 7,
+      "title": "Letters from Jaipur",
+      "release_year": 2024,
+      "duration": 118,
+      "rating": 8.0,
+      "language": "Hindi",
+      "category_id": 2
+    },
+    {
+      "content_id": 8,
+      "title": "The Weight of Rain",
+      "release_year": 2020,
+      "duration": 132,
+      "rating": 8.6,
+      "language": "English",
+      "category_id": 2
+    },
+    {
+      "content_id": 9,
+      "title": "Laugh Riot",
+      "release_year": 2024,
+      "duration": 95,
+      "rating": 7.0,
+      "language": "English",
+      "category_id": 3
+    },
+    {
+      "content_id": 10,
+      "title": "Chai Time Chaos",
+      "release_year": 2023,
+      "duration": 104,
+      "rating": 7.3,
+      "language": "Hindi",
+      "category_id": 3
+    },
+    {
+      "content_id": 11,
+      "title": "The Wedding Planner Wars",
+      "release_year": 2022,
+      "duration": 99,
+      "rating": 6.8,
+      "language": "English",
+      "category_id": 3
+    },
+    {
+      "content_id": 12,
+      "title": "Office Olympics",
+      "release_year": 2025,
+      "duration": 92,
+      "rating": 7.2,
+      "language": "English",
+      "category_id": 3
+    },
+    {
+      "content_id": 13,
+      "title": "Deep Blue World",
+      "release_year": 2021,
+      "duration": 102,
+      "rating": 8.9,
+      "language": "English",
+      "category_id": 4
+    },
+    {
+      "content_id": 14,
+      "title": "Rivers of India",
+      "release_year": 2023,
+      "duration": 88,
+      "rating": 8.3,
+      "language": "Hindi",
+      "category_id": 4
+    },
+    {
+      "content_id": 15,
+      "title": "The Last Glacier",
+      "release_year": 2022,
+      "duration": 96,
+      "rating": 8.1,
+      "language": "English",
+      "category_id": 4
+    },
+    {
+      "content_id": 16,
+      "title": "Midnight Ledger",
+      "release_year": 2024,
+      "duration": 112,
+      "rating": 7.9,
+      "language": "English",
+      "category_id": 5
+    },
+    {
+      "content_id": 17,
+      "title": "The Silent Witness",
+      "release_year": 2023,
+      "duration": 108,
+      "rating": 7.5,
+      "language": "English",
+      "category_id": 5
+    },
+    {
+      "content_id": 18,
+      "title": "Cold Signal",
+      "release_year": 2025,
+      "duration": 121,
+      "rating": 8.0,
+      "language": "English",
+      "category_id": 5
+    },
+    {
+      "content_id": 19,
+      "title": "Parallel Dawn",
+      "release_year": 2025,
+      "duration": 138,
+      "rating": 8.5,
+      "language": "English",
+      "category_id": 6
+    },
+    {
+      "content_id": 20,
+      "title": "Orbit Zero",
+      "release_year": 2022,
+      "duration": 126,
+      "rating": 7.7,
+      "language": "English",
+      "category_id": 6
+    },
+    {
+      "content_id": 21,
+      "title": "The Memory Engine",
+      "release_year": 2024,
+      "duration": 115,
+      "rating": 8.1,
+      "language": "English",
+      "category_id": 6
+    },
+    {
+      "content_id": 22,
+      "title": "Neon Tomorrow",
+      "release_year": 2021,
+      "duration": 130,
+      "rating": 7.0,
+      "language": "English",
+      "category_id": 6
+    },
+    {
+      "content_id": 23,
+      "title": "Two Monsoons",
+      "release_year": 2023,
+      "duration": 119,
+      "rating": 7.4,
+      "language": "Hindi",
+      "category_id": 7
+    },
+    {
+      "content_id": 24,
+      "title": "Paris in Autumn",
+      "release_year": 2022,
+      "duration": 107,
+      "rating": 7.2,
+      "language": "English",
+      "category_id": 7
+    },
+    {
+      "content_id": 25,
+      "title": "The Long Way to You",
+      "release_year": 2024,
+      "duration": 113,
+      "rating": 7.8,
+      "language": "English",
+      "category_id": 7
+    },
+    {
+      "content_id": 26,
+      "title": "The Hollow House",
+      "release_year": 2023,
+      "duration": 101,
+      "rating": 6.7,
+      "language": "English",
+      "category_id": 8
+    },
+    {
+      "content_id": 27,
+      "title": "Whispers at 3 AM",
+      "release_year": 2024,
+      "duration": 94,
+      "rating": 7.0,
+      "language": "English",
+      "category_id": 8
+    },
+    {
+      "content_id": 28,
+      "title": "Little Cloud Adventures",
+      "release_year": 2024,
+      "duration": 86,
+      "rating": 8.0,
+      "language": "English",
+      "category_id": 9
+    },
+    {
+      "content_id": 29,
+      "title": "Rangeela Rockets",
+      "release_year": 2023,
+      "duration": 91,
+      "rating": 7.6,
+      "language": "Hindi",
+      "category_id": 9
+    },
+    {
+      "content_id": 30,
+      "title": "The Paper Dragon",
+      "release_year": 2022,
+      "duration": 98,
+      "rating": 8.2,
+      "language": "English",
+      "category_id": 9
+    }
+  ],
+  "subscription": [
+    {
+      "subscription_id": 1,
+      "start_date": "2026-01-01",
+      "end_date": "2027-01-01",
+      "status": "active",
+      "user_id": 3,
+      "plan_id": 3
+    },
+    {
+      "subscription_id": 2,
+      "start_date": "2026-03-15",
+      "end_date": "2026-09-15",
+      "status": "expired",
+      "user_id": 4,
+      "plan_id": 1
+    },
+    {
+      "subscription_id": 3,
+      "start_date": "2026-02-01",
+      "end_date": "2027-02-01",
+      "status": "active",
+      "user_id": 5,
+      "plan_id": 2
+    },
+    {
+      "subscription_id": 4,
+      "start_date": "2026-05-10",
+      "end_date": "2027-05-10",
+      "status": "active",
+      "user_id": 6,
+      "plan_id": 3
+    },
+    {
+      "subscription_id": 5,
+      "start_date": "2026-06-20",
+      "end_date": "2027-06-20",
+      "status": "active",
+      "user_id": 7,
+      "plan_id": 2
+    },
+    {
+      "subscription_id": 6,
+      "start_date": "2026-01-10",
+      "end_date": "2026-07-10",
+      "status": "expired",
+      "user_id": 8,
+      "plan_id": 1
+    },
+    {
+      "subscription_id": 7,
+      "start_date": "2026-04-05",
+      "end_date": "2027-04-05",
+      "status": "cancelled",
+      "user_id": 9,
+      "plan_id": 3
+    },
+    {
+      "subscription_id": 8,
+      "start_date": "2026-08-01",
+      "end_date": "2027-02-01",
+      "status": "active",
+      "user_id": 10,
+      "plan_id": 1
+    },
+    {
+      "subscription_id": 9,
+      "start_date": "2026-09-15",
+      "end_date": "2027-09-15",
+      "status": "active",
+      "user_id": 11,
+      "plan_id": 2
+    },
+    {
+      "subscription_id": 10,
+      "start_date": "2026-07-01",
+      "end_date": "2027-07-01",
+      "status": "active",
+      "user_id": 12,
+      "plan_id": 3
+    }
+  ],
+  "payment": [
+    {
+      "payment_number": 1,
+      "payment_date": "2026-01-01",
+      "payment_amount": 649.0,
+      "payment_method": "Credit Card",
+      "status": "success",
+      "subscription_id": 1
+    },
+    {
+      "payment_number": 2,
+      "payment_date": "2026-03-15",
+      "payment_amount": 199.0,
+      "payment_method": "UPI",
+      "status": "success",
+      "subscription_id": 2
+    },
+    {
+      "payment_number": 3,
+      "payment_date": "2026-02-01",
+      "payment_amount": 399.0,
+      "payment_method": "Debit Card",
+      "status": "success",
+      "subscription_id": 3
+    },
+    {
+      "payment_number": 4,
+      "payment_date": "2026-05-10",
+      "payment_amount": 649.0,
+      "payment_method": "UPI",
+      "status": "success",
+      "subscription_id": 4
+    },
+    {
+      "payment_number": 5,
+      "payment_date": "2026-06-19",
+      "payment_amount": 399.0,
+      "payment_method": "Credit Card",
+      "status": "failed",
+      "subscription_id": 5
+    },
+    {
+      "payment_number": 6,
+      "payment_date": "2026-06-20",
+      "payment_amount": 399.0,
+      "payment_method": "UPI",
+      "status": "success",
+      "subscription_id": 5
+    },
+    {
+      "payment_number": 7,
+      "payment_date": "2026-01-10",
+      "payment_amount": 199.0,
+      "payment_method": "Net Banking",
+      "status": "success",
+      "subscription_id": 6
+    },
+    {
+      "payment_number": 8,
+      "payment_date": "2026-04-05",
+      "payment_amount": 649.0,
+      "payment_method": "Credit Card",
+      "status": "success",
+      "subscription_id": 7
+    },
+    {
+      "payment_number": 9,
+      "payment_date": "2026-04-15",
+      "payment_amount": 649.0,
+      "payment_method": "Credit Card",
+      "status": "refunded",
+      "subscription_id": 7
+    },
+    {
+      "payment_number": 10,
+      "payment_date": "2026-08-01",
+      "payment_amount": 199.0,
+      "payment_method": "Wallet",
+      "status": "success",
+      "subscription_id": 8
+    },
+    {
+      "payment_number": 11,
+      "payment_date": "2026-09-15",
+      "payment_amount": 399.0,
+      "payment_method": "UPI",
+      "status": "success",
+      "subscription_id": 9
+    },
+    {
+      "payment_number": 12,
+      "payment_date": "2026-07-01",
+      "payment_amount": 649.0,
+      "payment_method": "Debit Card",
+      "status": "success",
+      "subscription_id": 10
+    }
+  ],
+  "watchlist": [
+    {
+      "watchlist_id": 1,
+      "added_date": "2026-06-01",
+      "user_id": 3,
+      "content_id": 1
+    },
+    {
+      "watchlist_id": 2,
+      "added_date": "2026-06-02",
+      "user_id": 3,
+      "content_id": 3
+    },
+    {
+      "watchlist_id": 3,
+      "added_date": "2026-06-05",
+      "user_id": 4,
+      "content_id": 5
+    },
+    {
+      "watchlist_id": 4,
+      "added_date": "2026-07-01",
+      "user_id": 5,
+      "content_id": 13
+    },
+    {
+      "watchlist_id": 5,
+      "added_date": "2026-07-04",
+      "user_id": 6,
+      "content_id": 9
+    },
+    {
+      "watchlist_id": 6,
+      "added_date": "2026-07-10",
+      "user_id": 6,
+      "content_id": 19
+    },
+    {
+      "watchlist_id": 7,
+      "added_date": "2026-08-02",
+      "user_id": 7,
+      "content_id": 2
+    },
+    {
+      "watchlist_id": 8,
+      "added_date": "2026-08-05",
+      "user_id": 8,
+      "content_id": 7
+    },
+    {
+      "watchlist_id": 9,
+      "added_date": "2026-08-09",
+      "user_id": 8,
+      "content_id": 14
+    },
+    {
+      "watchlist_id": 10,
+      "added_date": "2026-08-15",
+      "user_id": 9,
+      "content_id": 16
+    },
+    {
+      "watchlist_id": 11,
+      "added_date": "2026-09-01",
+      "user_id": 10,
+      "content_id": 28
+    },
+    {
+      "watchlist_id": 12,
+      "added_date": "2026-09-03",
+      "user_id": 10,
+      "content_id": 23
+    },
+    {
+      "watchlist_id": 13,
+      "added_date": "2026-09-20",
+      "user_id": 11,
+      "content_id": 20
+    },
+    {
+      "watchlist_id": 14,
+      "added_date": "2026-09-22",
+      "user_id": 12,
+      "content_id": 6
+    },
+    {
+      "watchlist_id": 15,
+      "added_date": "2026-09-25",
+      "user_id": 12,
+      "content_id": 30
+    }
+  ],
+  "watch_history": [
+    {
+      "history_id": 1,
+      "watch_date": "2026-07-10",
+      "watch_time": "20:15:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 3,
+      "content_id": 1
+    },
+    {
+      "history_id": 2,
+      "watch_date": "2026-07-12",
+      "watch_time": "21:00:00",
+      "progress": 45.5,
+      "completed": false,
+      "user_id": 4,
+      "content_id": 5
+    },
+    {
+      "history_id": 3,
+      "watch_date": "2026-07-15",
+      "watch_time": "19:30:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 5,
+      "content_id": 13
+    },
+    {
+      "history_id": 4,
+      "watch_date": "2026-07-18",
+      "watch_time": "22:00:00",
+      "progress": 70.0,
+      "completed": false,
+      "user_id": 6,
+      "content_id": 9
+    },
+    {
+      "history_id": 5,
+      "watch_date": "2026-08-03",
+      "watch_time": "18:45:00",
+      "progress": 20.0,
+      "completed": false,
+      "user_id": 7,
+      "content_id": 2
+    },
+    {
+      "history_id": 6,
+      "watch_date": "2026-08-06",
+      "watch_time": "23:10:00",
+      "progress": 88.25,
+      "completed": false,
+      "user_id": 8,
+      "content_id": 7
+    },
+    {
+      "history_id": 7,
+      "watch_date": "2026-08-20",
+      "watch_time": "20:00:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 9,
+      "content_id": 16
+    },
+    {
+      "history_id": 8,
+      "watch_date": "2026-09-02",
+      "watch_time": "19:15:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 10,
+      "content_id": 28
+    },
+    {
+      "history_id": 9,
+      "watch_date": "2026-09-10",
+      "watch_time": "21:30:00",
+      "progress": 75.0,
+      "completed": false,
+      "user_id": 11,
+      "content_id": 20
+    },
+    {
+      "history_id": 10,
+      "watch_date": "2026-09-14",
+      "watch_time": "20:45:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 12,
+      "content_id": 6
+    },
+    {
+      "history_id": 11,
+      "watch_date": "2026-09-18",
+      "watch_time": "22:20:00",
+      "progress": 60.0,
+      "completed": false,
+      "user_id": 3,
+      "content_id": 19
+    },
+    {
+      "history_id": 12,
+      "watch_date": "2026-09-25",
+      "watch_time": "17:30:00",
+      "progress": 100.0,
+      "completed": true,
+      "user_id": 6,
+      "content_id": 19
+    }
+  ],
+  "review": [
+    {
+      "review_id": 1,
+      "rating": 9.0,
+      "comment": "Absolutely thrilling from start to finish!",
+      "review_date": "2026-07-11",
+      "user_id": 3,
+      "content_id": 1
+    },
+    {
+      "review_id": 2,
+      "rating": 7.5,
+      "comment": "Good story but slow in the middle.",
+      "review_date": "2026-07-16",
+      "user_id": 5,
+      "content_id": 13
+    },
+    {
+      "review_id": 3,
+      "rating": 8.0,
+      "comment": "Hilarious, watched it twice already.",
+      "review_date": "2026-07-19",
+      "user_id": 6,
+      "content_id": 9
+    },
+    {
+      "review_id": 4,
+      "rating": 7.0,
+      "comment": "A bit predictable, still worth a watch.",
+      "review_date": "2026-08-07",
+      "user_id": 8,
+      "content_id": 7
+    },
+    {
+      "review_id": 5,
+      "rating": 8.5,
+      "comment": "Great performances by the whole cast.",
+      "review_date": "2026-08-21",
+      "user_id": 9,
+      "content_id": 16
+    },
+    {
+      "review_id": 6,
+      "rating": 9.5,
+      "comment": "Beautifully shot, the soundtrack is amazing.",
+      "review_date": "2026-09-03",
+      "user_id": 10,
+      "content_id": 28
+    },
+    {
+      "review_id": 7,
+      "rating": 8.0,
+      "comment": "Perfect for a relaxed weekend evening.",
+      "review_date": "2026-09-11",
+      "user_id": 11,
+      "content_id": 20
+    },
+    {
+      "review_id": 8,
+      "rating": 9.0,
+      "comment": "One of the best things I have seen this year.",
+      "review_date": "2026-09-15",
+      "user_id": 12,
+      "content_id": 6
+    },
+    {
+      "review_id": 9,
+      "rating": 8.5,
+      "comment": "Did not expect that twist!",
+      "review_date": "2026-09-26",
+      "user_id": 6,
+      "content_id": 19
+    }
+  ]
+}
