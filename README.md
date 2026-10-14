@@ -1,4 +1,6 @@
-# Streamio Streaming Platform Management System
+# StreamIO
+
+rdbms project- streaming platform management system
 
 This repository contains the existing Streamio React/Vite frontend, FastAPI backend, MySQL schema/import utility, and the supplied dataset.
 
